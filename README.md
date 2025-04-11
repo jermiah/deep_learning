@@ -43,8 +43,8 @@ This project identifies speakers using audio recordings by leveraging pretrained
   - **Preprocessing:** Mono conversion, resampling to 16 kHz, and fixed-length waveform padding using `torchaudio`.
   - **Embedding Extraction:** ECAPA-TDNN model from `speechbrain.pretrained.EncoderClassifier`.
   - **Two Approaches:**
-    - 🎯 **Classification-based**: A custom neural network (`EmbeddingClassifierBN`) trained on embeddings for multi-class speaker identification.
-    - 🧠 **Similarity-based**: Cosine similarity between embeddings to verify if two audio clips are from the same speaker.
+    -  **Classification-based**: A custom neural network (`EmbeddingClassifierBN`) trained on embeddings for multi-class speaker identification.
+    -  **Similarity-based**: Cosine similarity between embeddings to verify if two audio clips are from the same speaker.
   - **Hybrid Evaluation:** Combines both approaches for flexible inference and robustness testing.
 - **Interface:** A user-friendly **Gradio app** allows real-time testing of speaker audio to evaluate both classification and similarity predictions.
 - **Evaluation:** Accuracy, training loss curves, confusion matrices, and real-world inference via the Gradio interface.
