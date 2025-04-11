@@ -44,7 +44,7 @@ This project classifies speakers based on their voice recordings. It involves ex
   - Sequence modeling using deep neural networks (MLP, LSTM, or CNN).
 - **Evaluation:** Classification accuracy, confusion matrix, and training loss curves.
 
-📁 **Project Directory:** [Speaker Recognition](./Speaker_Recognition_Classification/)
+📁 **Project Directory:** [Speaker Recognition](./'Speaker Identification'/)
 
 ---
 
