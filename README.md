@@ -14,7 +14,8 @@ This repository contains deep learning projects using state-of-the-art neural ne
 ├── Sentiment_Classification_BERT/        # NLP sentiment classification using BERT
 ├── ImageClassification_TransferLearning/ # Image classification using CNN + Transfer Learning
 
-
+```plaintext
+---
 ## **Key Features**
 
 - **Domains Covered:** Speech Recognition, Natural Language Processing, and Computer Vision.
