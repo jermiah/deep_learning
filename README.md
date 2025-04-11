@@ -83,7 +83,7 @@ This computer vision project uses transfer learning with pretrained CNNs (like R
   - Fine-tuning last layers on custom dataset
 - **Evaluation:** Training accuracy, validation accuracy, confusion matrix, and visualizations.
 
-📁 **Project Directory:** [Image Classification](./ImageClassification_TransferLearning/)
+📁 **Project Directory:** [Image Classification](./ImageClassification/)
 
 ---
 
