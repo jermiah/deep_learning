@@ -35,7 +35,7 @@ This repository contains deep learning projects using state-of-the-art neural ne
 ### **1. Speaker Recognition and Classification**
 
 #### **Summary**
-This project classifies speakers based on their voice recordings. It involves extracting features from audio (MFCCs), feeding them into deep learning models, and identifying which speaker is speaking.
+This project classifies speakers based on their voice recordings. It involves extracting features from audio (mp3), feeding them into deep learning models, and identifying which speaker is speaking.
 
 #### **Highlights**
 - **Data:** Audio recordings from multiple speakers.
