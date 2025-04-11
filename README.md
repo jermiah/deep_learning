@@ -10,9 +10,9 @@ This repository contains deep learning projects using state-of-the-art neural ne
 ```plaintext
 /
 ├── README.md                             # Main documentation
-├── Speaker_Recognition_Classification/   # Speaker recognition using deep audio features
-├── Sentiment_Classification_BERT/        # NLP sentiment classification using BERT
-├── ImageClassification_TransferLearning/ # Image classification using CNN + Transfer Learning
+├── Speaker Identification/   # Speaker recognition using deep audio features
+├── Sentiment_Classification_BERT.ipynb       # NLP sentiment classification using BERT
+├── ImageClassification/ # Image classification using CNN + Transfer Learning
 
 ```
 ## **Key Features**
