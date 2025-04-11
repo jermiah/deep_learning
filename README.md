@@ -66,7 +66,7 @@ This NLP project uses BERT for fine-tuned sentiment classification. It predicts 
   - Fine-tuning the BERT model on sentiment data
 - **Evaluation:** Accuracy, F1-score, precision-recall metrics, confusion matrix.
 
-📁 **Project Directory:** [Sentiment Classification with BERT](./Sentiment_Classification_BERT/)
+📁 **Project Directory:** [Sentiment Classification with BERT](./Sentiment_Classification_with_BERT_via_Transfer_Learning.ipynb)
 
 ---
 
