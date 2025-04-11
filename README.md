@@ -35,14 +35,19 @@ This repository contains deep learning projects using state-of-the-art neural ne
 ### **1. Speaker Recognition and Classification**
 
 #### **Summary**
-This project classifies speakers based on their voice recordings. It involves extracting features from audio (mp3), feeding them into deep learning models, and identifying which speaker is speaking.
+This project identifies speakers using audio recordings by leveraging pretrained ECAPA-TDNN embeddings from the SpeechBrain library. It explores both classification and similarity-based approaches to speaker recognition, and includes a Gradio demo app for interactive testing. Designed using a small sample dataset, this project showcases a lightweight hybrid speaker recognition pipeline.
 
 #### **Highlights**
-- **Data:** Audio recordings from multiple speakers.
+- **Data:** Small-scale speaker dataset with short audio clips representing multiple identities.
 - **Methods:**
-  - MFCC (Mel-frequency cepstral coefficients) feature extraction using `torchaudio`.
-  - Sequence modeling using deep neural networks (MLP, LSTM, or CNN).
-- **Evaluation:** Classification accuracy, confusion matrix, and training loss curves.
+  - **Preprocessing:** Mono conversion, resampling to 16 kHz, and fixed-length waveform padding using `torchaudio`.
+  - **Embedding Extraction:** ECAPA-TDNN model from `speechbrain.pretrained.EncoderClassifier`.
+  - **Two Approaches:**
+    - 🎯 **Classification-based**: A custom neural network (`EmbeddingClassifierBN`) trained on embeddings for multi-class speaker identification.
+    - 🧠 **Similarity-based**: Cosine similarity between embeddings to verify if two audio clips are from the same speaker.
+  - **Hybrid Evaluation:** Combines both approaches for flexible inference and robustness testing.
+- **Interface:** A user-friendly **Gradio app** allows real-time testing of speaker audio to evaluate both classification and similarity predictions.
+- **Evaluation:** Accuracy, training loss curves, confusion matrices, and real-world inference via the Gradio interface.
 
 📁 **Project Directory:** [Speaker Recognition](./Speaker%20Identification/)
 
