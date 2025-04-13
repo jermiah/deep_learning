@@ -53,18 +53,18 @@ This project identifies speakers using audio recordings by leveraging pretrained
 
 ---
 
-### 🎬 Sentiment Classification with BERT (IMDB Movie Reviews)
+###  Sentiment Classification with BERT (IMDB Movie Reviews)
 
-#### 📝 **Project Summary**
+####  **Summary**
 This project leverages **BERT** (Bidirectional Encoder Representations from Transformers) for fine-tuned sentiment classification on the **IMDB movie review dataset**. The goal is to predict the sentiment— **positive**, or **negative**—of a given movie review using Transformer-based contextual embeddings.
 
-#### 🚀 **Project Highlights**
-- **📚 Dataset:** IMDB movie reviews labeled with sentiment classes.
-- **🔧 Methods & Tools:**
+####  **Highlights**
+- **Dataset:** IMDB movie reviews labeled with sentiment classes.
+- **Methods & Tools:**
   - Pretrained BERT model: `bert-base-uncased` 
   - Input preprocessing: tokenization, padding, attention masks
   - Fine-tuning BERT on the labeled sentiment data
-- **📊 Evaluation Metrics:**
+- **Evaluation Metrics:**
   - Accuracy
   - Precision, Recall, F1-score
   - Confusion Matrix for class-wise performance
