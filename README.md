@@ -1,7 +1,7 @@
 # Deep Learning Projects
 
 ## **Overview**
-This repository contains deep learning projects using state-of-the-art neural networks, pretrained models, and transfer learning across vision, NLP, and audio domains. These projects are designed to demonstrate the power of deep neural networks in real-world classification tasks.
+This repository contains deep learning projects using state-of-the-art neural networks, pretrained models, and transfer learning across vision, NLP, and audio domains. These projects are designed to demonstrate the power of deep neural networks.
 
 ---
 
